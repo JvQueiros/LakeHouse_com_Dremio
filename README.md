@@ -33,12 +33,6 @@ if gauth.credentials is None:
 
 drive = GoogleDrive(gauth)
 
-# from pydrive.auth import GoogleAuth: Esta linha importa a classe GoogleAuth do módulo auth da biblioteca PyDrive. A classe GoogleAuth é responsável pela autenticação com o Google.
-#from pydrive.drive import GoogleDrive: Esta linha importa a classe GoogleDrive do módulo drive da biblioteca PyDrive. A classe GoogleDrive é responsável por interagir com o Google Drive após a autenticação.
-#gauth = GoogleAuth(): Esta linha cria uma instância da classe GoogleAuth, que é utilizada para autenticar o usuário.
-#gauth.LocalWebserverAuth(): Este método LocalWebserverAuth() realiza a autenticação local do usuário, abrindo um navegador da web padrão onde o usuário pode fazer login na sua conta do Google e conceder permissões para acessar o Google Drive.
-#drive = GoogleDrive(gauth): Esta linha cria uma instância da classe GoogleDrive, passando o objeto gauth como argumento. Essa instância é usada para interagir com o Google Drive após a autenticação.
-
 # ID da pasta no Google Drive para onde os arquivos serão carregados
 folder_id = 'id_pasta_do_google_drive'
 
